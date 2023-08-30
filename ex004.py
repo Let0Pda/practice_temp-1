@@ -4,9 +4,8 @@
 
 '''
 
+
 n = int(input("n = "))
-index = 0
-while index <= n:
+for index in range(n + 1):
     if (index % 10) % 4 == 0:
         print(index, end=" ")
-    index += 1
